@@ -1,0 +1,226 @@
+2024-06-23T16:54:35.028+03:00  INFO 432 --- [main] com.finby.FinbyTestTaskApplication       : Starting FinbyTestTaskApplication v0.0.1-SNAPSHOT using Java 17.0.6 with PID 432 (D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs\FinbyTestTask-0.0.1-SNAPSHOT.jar started by Nikita Adamovich in D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs)
+2024-06-23T16:54:35.033+03:00  INFO 432 --- [main] com.finby.FinbyTestTaskApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-23T16:54:36.789+03:00  INFO 432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23T16:54:37.020+03:00  INFO 432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 217 ms. Found 3 JPA repository interfaces.
+2024-06-23T16:54:38.099+03:00  INFO 432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-23T16:54:38.115+03:00  INFO 432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-23T16:54:38.115+03:00  INFO 432 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-23T16:54:38.181+03:00  INFO 432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-06-23T16:54:38.182+03:00  INFO 432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3020 ms
+2024-06-23T16:54:38.223+03:00  INFO 432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-23T16:54:38.638+03:00  INFO 432 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:finby user=H2USER
+2024-06-23T16:54:38.645+03:00  INFO 432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-23T16:54:38.673+03:00  INFO 432 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:finby'
+2024-06-23T16:54:38.968+03:00  INFO 432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23T16:54:39.101+03:00  INFO 432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23T16:54:39.151+03:00  INFO 432 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-23T16:54:39.603+03:00  INFO 432 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23T16:54:40.979+03:00  INFO 432 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23T16:54:41.036+03:00  INFO 432 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23T16:54:41.556+03:00  INFO 432 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-23T16:54:42.359+03:00  WARN 432 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23T16:54:43.096+03:00  INFO 432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2024-06-23T16:54:43.130+03:00  INFO 432 --- [main] com.finby.FinbyTestTaskApplication       : Started FinbyTestTaskApplication in 9.443 seconds (process running for 10.162)
+2024-06-23T17:25:25.362+03:00  INFO 432 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23T17:25:25.373+03:00  INFO 432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-23T17:25:25.384+03:00  INFO 432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-23T17:26:56.318+03:00  INFO 2820 --- [main] com.finby.FinbyTestTaskApplication       : Starting FinbyTestTaskApplication v0.0.1-SNAPSHOT using Java 17.0.6 with PID 2820 (D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs\FinbyTestTask-0.0.1-SNAPSHOT.jar started by Nikita Adamovich in D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs)
+2024-06-23T17:26:56.332+03:00  INFO 2820 --- [main] com.finby.FinbyTestTaskApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-23T17:26:58.676+03:00  INFO 2820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23T17:26:58.924+03:00  INFO 2820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 232 ms. Found 3 JPA repository interfaces.
+2024-06-23T17:27:00.137+03:00  INFO 2820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-23T17:27:00.173+03:00  INFO 2820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-23T17:27:00.175+03:00  INFO 2820 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-23T17:27:00.378+03:00  INFO 2820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-06-23T17:27:00.379+03:00  INFO 2820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3943 ms
+2024-06-23T17:27:00.507+03:00  WARN 2820 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: URL must start with 'jdbc'
+2024-06-23T17:27:00.523+03:00  INFO 2820 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-06-23T17:27:00.562+03:00  INFO 2820 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-23T17:27:00.600+03:00 ERROR 2820 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: URL must start with 'jdbc'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar!/:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar!/:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar!/:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar!/:3.2.5]
+	at com.finby.FinbyTestTaskApplication.main(FinbyTestTaskApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[FinbyTestTask-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[FinbyTestTask-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[FinbyTestTask-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: URL must start with 'jdbc'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	... 35 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: URL must start with 'jdbc'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	... 49 common frames omitted
+Caused by: java.lang.IllegalArgumentException: URL must start with 'jdbc'
+	at org.springframework.util.Assert.isTrue(Assert.java:111) ~[spring-core-6.1.6.jar!/:6.1.6]
+	at org.springframework.boot.jdbc.DatabaseDriver.fromJdbcUrl(DatabaseDriver.java:288) ~[spring-boot-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:180) ~[spring-boot-autoconfigure-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails.getDriverClassName(PropertiesJdbcConnectionDetails.java:49) ~[spring-boot-autoconfigure-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:55) ~[spring-boot-autoconfigure-3.2.5.jar!/:3.2.5]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:117) ~[spring-boot-autoconfigure-3.2.5.jar!/:3.2.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140) ~[spring-beans-6.1.6.jar!/:6.1.6]
+	... 50 common frames omitted
+
+2024-06-23T17:27:22.685+03:00  INFO 5264 --- [main] com.finby.FinbyTestTaskApplication       : Starting FinbyTestTaskApplication v0.0.1-SNAPSHOT using Java 17.0.6 with PID 5264 (D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs\FinbyTestTask-0.0.1-SNAPSHOT.jar started by Nikita Adamovich in D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs)
+2024-06-23T17:27:22.693+03:00  INFO 5264 --- [main] com.finby.FinbyTestTaskApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-23T17:27:24.258+03:00  INFO 5264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23T17:27:24.533+03:00  INFO 5264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 258 ms. Found 3 JPA repository interfaces.
+2024-06-23T17:27:25.555+03:00  INFO 5264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-23T17:27:25.577+03:00  INFO 5264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-23T17:27:25.578+03:00  INFO 5264 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-23T17:27:25.657+03:00  INFO 5264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-06-23T17:27:25.658+03:00  INFO 5264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2834 ms
+2024-06-23T17:27:25.724+03:00  INFO 5264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-23T17:27:26.004+03:00  INFO 5264 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:finby user=H2USER
+2024-06-23T17:27:26.009+03:00  INFO 5264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-23T17:27:26.027+03:00  INFO 5264 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:finby'
+2024-06-23T17:27:26.273+03:00  INFO 5264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23T17:27:26.365+03:00  INFO 5264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23T17:27:26.421+03:00  INFO 5264 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-23T17:27:26.785+03:00  INFO 5264 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23T17:27:28.038+03:00  INFO 5264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23T17:27:28.103+03:00  INFO 5264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23T17:27:28.576+03:00  INFO 5264 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-23T17:27:29.403+03:00  WARN 5264 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23T17:27:30.220+03:00  INFO 5264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2024-06-23T17:27:30.265+03:00  INFO 5264 --- [main] com.finby.FinbyTestTaskApplication       : Started FinbyTestTaskApplication in 8.569 seconds (process running for 9.294)
+2024-06-23T17:27:56.949+03:00  INFO 5264 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23T17:27:56.950+03:00  INFO 5264 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-23T17:27:56.952+03:00  INFO 5264 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-23T17:27:57.268+03:00  WARN 5264 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'files' is not present.]
+2024-06-23T17:30:27.023+03:00  INFO 2652 --- [main] com.finby.FinbyTestTaskApplication       : Starting FinbyTestTaskApplication v0.0.1-SNAPSHOT using Java 17.0.6 with PID 2652 (D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs\FinbyTestTask-0.0.1-SNAPSHOT.jar started by Nikita Adamovich in D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs)
+2024-06-23T17:30:27.036+03:00  INFO 2652 --- [main] com.finby.FinbyTestTaskApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-23T17:30:29.654+03:00  INFO 2652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23T17:30:29.929+03:00  INFO 2652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 262 ms. Found 3 JPA repository interfaces.
+2024-06-23T17:30:32.060+03:00  INFO 2652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-23T17:30:32.082+03:00  INFO 2652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-23T17:30:32.083+03:00  INFO 2652 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-23T17:30:32.167+03:00  INFO 2652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-06-23T17:30:32.168+03:00  INFO 2652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4879 ms
+2024-06-23T17:30:32.404+03:00  INFO 2652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-23T17:30:32.780+03:00  INFO 2652 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:finby user=H2USER
+2024-06-23T17:30:32.802+03:00  INFO 2652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-23T17:30:32.883+03:00  INFO 2652 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:finby'
+2024-06-23T17:30:33.327+03:00  INFO 2652 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23T17:30:33.431+03:00  INFO 2652 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23T17:30:33.503+03:00  INFO 2652 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-23T17:30:33.958+03:00  INFO 2652 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23T17:30:36.163+03:00  INFO 2652 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23T17:30:36.251+03:00  INFO 2652 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23T17:30:36.899+03:00  INFO 2652 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-23T17:30:37.821+03:00  WARN 2652 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23T17:30:38.942+03:00  INFO 2652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2024-06-23T17:30:39.014+03:00  INFO 2652 --- [main] com.finby.FinbyTestTaskApplication       : Started FinbyTestTaskApplication in 13.83 seconds (process running for 15.63)
+2024-06-23T17:30:43.769+03:00  INFO 2652 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23T17:30:43.772+03:00  INFO 2652 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-23T17:30:43.774+03:00  INFO 2652 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-23T17:31:25.004+03:00  INFO 6672 --- [main] com.finby.FinbyTestTaskApplication       : Starting FinbyTestTaskApplication v0.0.1-SNAPSHOT using Java 17.0.6 with PID 6672 (D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs\FinbyTestTask-0.0.1-SNAPSHOT.jar started by Nikita Adamovich in D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs)
+2024-06-23T17:31:25.012+03:00  INFO 6672 --- [main] com.finby.FinbyTestTaskApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-23T17:31:26.750+03:00  INFO 6672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23T17:31:27.004+03:00  INFO 6672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 241 ms. Found 3 JPA repository interfaces.
+2024-06-23T17:31:27.993+03:00  INFO 6672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-23T17:31:28.013+03:00  INFO 6672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-23T17:31:28.013+03:00  INFO 6672 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-23T17:31:28.080+03:00  INFO 6672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-06-23T17:31:28.081+03:00  INFO 6672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2875 ms
+2024-06-23T17:31:28.129+03:00  INFO 6672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-23T17:31:28.393+03:00  INFO 6672 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:finby user=H2USER
+2024-06-23T17:31:28.399+03:00  INFO 6672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-23T17:31:28.428+03:00  INFO 6672 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:finby'
+2024-06-23T17:31:28.666+03:00  INFO 6672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23T17:31:28.765+03:00  INFO 6672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23T17:31:28.839+03:00  INFO 6672 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-23T17:31:29.244+03:00  INFO 6672 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23T17:31:30.643+03:00  INFO 6672 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23T17:31:30.713+03:00  INFO 6672 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23T17:31:31.218+03:00  INFO 6672 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-23T17:31:32.064+03:00  WARN 6672 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23T17:31:32.800+03:00  INFO 6672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2024-06-23T17:31:32.830+03:00  INFO 6672 --- [main] com.finby.FinbyTestTaskApplication       : Started FinbyTestTaskApplication in 10.092 seconds (process running for 11.017)
+2024-06-23T17:31:54.081+03:00  INFO 6672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23T17:31:54.084+03:00  INFO 6672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-23T17:31:54.089+03:00  INFO 6672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-23T17:32:23.620+03:00  INFO 6672 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23T17:32:23.630+03:00  INFO 6672 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-23T17:32:23.635+03:00  INFO 6672 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-23T17:37:26.218+03:00  INFO 14028 --- [main] com.finby.FinbyTestTaskApplication       : Starting FinbyTestTaskApplication v0.0.1-SNAPSHOT using Java 17.0.6 with PID 14028 (D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs\FinbyTestTask-0.0.1-SNAPSHOT.jar started by Nikita Adamovich in D:\github\repositories\Personal\FinbyTestTask\FinbyTestTask\build\libs)
+2024-06-23T17:37:26.227+03:00  INFO 14028 --- [main] com.finby.FinbyTestTaskApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-23T17:37:28.374+03:00  INFO 14028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23T17:37:28.776+03:00  INFO 14028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 376 ms. Found 3 JPA repository interfaces.
+2024-06-23T17:37:30.315+03:00  INFO 14028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-23T17:37:30.346+03:00  INFO 14028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-23T17:37:30.346+03:00  INFO 14028 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-23T17:37:30.607+03:00  INFO 14028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-06-23T17:37:30.640+03:00  INFO 14028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4278 ms
+2024-06-23T17:37:30.995+03:00  INFO 14028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-23T17:37:31.589+03:00  INFO 14028 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:finby user=H2USER
+2024-06-23T17:37:31.620+03:00  INFO 14028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-23T17:37:31.660+03:00  INFO 14028 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:finby'
+2024-06-23T17:37:31.953+03:00  INFO 14028 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23T17:37:32.091+03:00  INFO 14028 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23T17:37:32.192+03:00  INFO 14028 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-23T17:37:32.886+03:00  INFO 14028 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23T17:37:34.380+03:00  INFO 14028 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23T17:37:34.448+03:00  INFO 14028 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23T17:37:34.941+03:00  INFO 14028 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-23T17:37:35.788+03:00  WARN 14028 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23T17:37:36.955+03:00  INFO 14028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2024-06-23T17:37:37.009+03:00  INFO 14028 --- [main] com.finby.FinbyTestTaskApplication       : Started FinbyTestTaskApplication in 12.377 seconds (process running for 13.118)
+2024-06-23T17:47:18.305+03:00  INFO 14028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23T17:47:18.307+03:00  INFO 14028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-23T17:47:18.311+03:00  INFO 14028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-23T17:47:20.164+03:00  INFO 14028 --- [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1006 ms
+2024-06-23T17:48:41.031+03:00  INFO 14028 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23T17:48:41.045+03:00  INFO 14028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-23T17:48:41.069+03:00  INFO 14028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
