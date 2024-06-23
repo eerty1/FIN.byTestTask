@@ -30,24 +30,24 @@ The application has to have the following functionality:
 Json body sample:
 
 {
-&emsp;  "product": {
-&emsp;&emsp;        "name": "BeauBeautiful headphones",
-&emsp;&emsp;        "description": "Beautiful headphones Acme, color: black. Active noise reduction, Folding design, Built-in microphone.",
-&emsp;&emsp;        "price": 49.99,
-&emsp;&emsp;        "color": "black",
-&emsp;&emsp;        "brand": "Acme",
-&emsp;&emsp;        "category": "Electronics",
-&emsp;&emsp;        "availability": true,
-&emsp;&emsp;       "rating": 4.5,
-&emsp;&emsp;        "image_url": "https://example.com/images/headphones.jpg ",
-&emsp;&emsp;        "weight": "200 g",
-&emsp;&emsp;        "warranty": "2 years",
-&emsp;&emsp;        "special_features": [
-&emsp;&emsp;&emsp;             "Active noise reduction",
-&emsp;&emsp;&emsp;             "Folding design",
-&emsp;&emsp;&emsp;             "Built-in microphone"
-&emsp;&emsp;        ]
-&emsp;    }
+"product": {
+"name": "BeauBeautiful headphones",
+"description": "Beautiful headphones Acme, color: black. Active noise reduction, Folding design, Built-in microphone.",
+"price": 49.99,
+"color": "black",
+"brand": "Acme",
+"category": "Electronics",
+"availability": true,
+"rating": 4.5,
+"image_url": "https://example.com/images/headphones.jpg ",
+"weight": "200 g",
+"warranty": "2 years",
+ "special_features": [
+"Active noise reduction",
+"Folding design",
+"Built-in microphone"
+]
+}
 }
 
 Additional Tasks (optional):
