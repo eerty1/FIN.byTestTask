@@ -76,7 +76,7 @@ There're the steps to unpack my project:
 
 Build and run application:
 
-* mvn ./gradlew clean build
+* ./gradlew clean build
 
 * Go to the **build/libs**  directory and run **java -jar FinbyTestTask-0.0.1-SNAPSHOT.jar**
 
